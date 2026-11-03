@@ -4,8 +4,15 @@ info:
   seq: 1
 
 http:
-  method: GET
+  method: POST
   url: http://localhost:3000/estudios
+  body:
+    type: json
+    data: |-
+      {
+          "nome": "Studio João",
+          "pais": "Brasil"
+        }
   auth: inherit
 
 settings:
