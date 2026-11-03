@@ -1,4 +1,4 @@
-import * as estudioModel from "../models/estudioModel.js";
+import * as estudioModel from "../models/estudioModels.js";
 import {textoValido} from "../utils/validacoes.js";
  export function listar (req, res, next) {
     estudioModel.listar((erro, resultado) => {

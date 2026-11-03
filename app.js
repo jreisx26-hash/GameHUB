@@ -10,7 +10,7 @@ import conexao from "./db.js";
 import {textoValido, inteiroPositivo} from "./src/utils/validacoes.js"
 import { validarId } from "./src/middlewares/validarld.js";
 import { tratarErro } from "./src/middlewares/tratarErro.js";
-import estudioRouter from "./src/routes/estudioModel.js";
+import estudioRouter from "./src/routes/estudioRoutes.js";
 
 const app = express();
 const PORTA = Number(process.env.PORTA || 3000);
